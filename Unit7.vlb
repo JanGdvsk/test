@@ -1,0 +1,16 @@
+﻿[ConnectToDB]
+Coordinates=222,1,95,36
+
+[(TMenuItem)]
+Coordinates=34,173,88,36
+
+[DeliveriesMenu]
+Coordinates=355,111,103,36
+
+[G1]
+Coordinates=355,221,40,36
+
+[]
+Coordinates=10,78,64,36
+Visible=True
+

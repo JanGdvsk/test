@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.13.2" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44264,4293467708" ReportOptions.Description.Text="" ReportOptions.LastChange="44264,5944715741" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C656674024003546F7002480844617461736574730101063420446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="22,67718" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo5" Left="15,11812" Top="0" Width="211,65368" Height="18,89765" ShowHint="False" Text="Отчет о поставках "/>
+      <TfrxMemoView Name="Memo15" Left="302,3624" Top="0" Width="30,23624" Height="18,89765" ShowHint="False" Text="С"/>
+      <TfrxMemoView Name="Memo16" Left="525,35467" Top="0" Width="30,23624" Height="18,89765" ShowHint="False" Text="По"/>
+      <TfrxMemoView Name="DateStart" Left="343,93723" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" DisplayFormat.FormatStr="dd mmm yyyy" DisplayFormat.Kind="fkDateTime" Text="[DateStart]"/>
+      <TfrxMemoView Name="DateEnd" Left="566,9295" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" DisplayFormat.FormatStr="dd mmm yyyy" DisplayFormat.Kind="fkDateTime" Text="[DateEnd]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="309,92146" Left="0" Top="102,04731" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="15,11812" Top="60,47248" Width="400,63018" Height="18,89765" ShowHint="False" DataField="Поставщик.Поставщик" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;Поставщик.Поставщик&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="15,11812" Top="132,28355" Width="400,63018" Height="18,89765" ShowHint="False" DataField="Товар.Товар" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;Товар.Товар&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="15,11812" Top="204,09462" Width="400,63018" Height="18,89765" ShowHint="False" DataField="Тип товара" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;Тип товара&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="457,32313" Top="60,47248" Width="158,74026" Height="18,89765" ShowHint="False" DataField="Цена за 1ед" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;Цена за 1ед&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="544,25232" Top="275,90569" Width="79,37013" Height="18,89765" ShowHint="False" DataField="Итог" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;Итог&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="457,32313" Top="204,09462" Width="79,37013" Height="18,89765" ShowHint="False" DataField="Вес" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;Вес&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="15,11812" Top="26,45671" Width="94,48825" Height="18,89765" ShowHint="False" Text="Поставщик"/>
+      <TfrxMemoView Name="Memo10" Left="15,11812" Top="105,82684" Width="94,48825" Height="18,89765" ShowHint="False" Text="Товар"/>
+      <TfrxMemoView Name="Memo11" Left="15,11812" Top="177,63791" Width="94,48825" Height="18,89765" ShowHint="False" Text="Тип товара"/>
+      <TfrxMemoView Name="Memo12" Left="457,32313" Top="30,23624" Width="158,74026" Height="18,89765" ShowHint="False" Text="Цена по заявке&#13;&#10;"/>
+      <TfrxMemoView Name="Memo13" Left="457,32313" Top="177,63791" Width="158,74026" Height="18,89765" ShowHint="False" Text="Общий вес"/>
+      <TfrxMemoView Name="Memo14" Left="544,25232" Top="253,22851" Width="94,48825" Height="18,89765" ShowHint="False" Text="Итог"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="472,44125" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="642,5201" Top="0" Width="75,5906" Height="18,89765" ShowHint="False" HAlign="haRight" Text="[Page#]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
