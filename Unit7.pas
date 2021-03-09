@@ -186,8 +186,11 @@ end;
 
 procedure TDeliveriesForm.N1Click(Sender: TObject);
 begin
-  ReportForm.Parent:=DeliveriesForm.MainGrid;
-  ReportForm.Show;
+  with ReportForm do
+  begin
+    Parent := MainGrid;
+    Show;
+  end;
 end;
 
 procedure TDeliveriesForm.N5Click(Sender: TObject);

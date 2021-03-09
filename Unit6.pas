@@ -30,9 +30,11 @@ implementation
 uses unit5;
 procedure TReportForm.Button4Click(Sender: TObject);
 begin
- RepForm.Show;
- RepForm.frxReport1.ShowReport();
- close;
+  with RepForm do
+  begin
+    Show;
+    frxReport1.ShowReport();
+  end;
+  Close;
 end;
-
 end.
